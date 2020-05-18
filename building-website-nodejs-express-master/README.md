@@ -1,18 +1,3 @@
 # Building a website with Node.js and Express
 
-This repository contains the code for my course 'Building Bots with Node.js' on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/daniel-khan).
-
-The master branch contains the initial version to get started with, while the branches contain the state of the code at the beginning (e.g. 02_02**b**) and end (e.g. 02_02**e**) of a video.
-
-## Setting up the project
-
-* In your terminal, create directory `building-website-nodejs-express` and **change into it**.
-* Run 
-  ```bash
-  git clone --bare git@github.com:danielkhan/building-website-nodejs-express.git .git
-  git config --bool core.bare false
-  git reset --hard
-  git branch
-  ```
-  
-Everything else will be discussed in my course.
+It is a realisitic and robust website built on NodeJs and ExpressJS. It transforms HTML pages to Dynamic pages, leverages template engines to modularize code, add routing and business logic, handle errors, store form data and create API endpoints for single page applications.
